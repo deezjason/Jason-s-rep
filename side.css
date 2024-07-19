@@ -1,0 +1,61 @@
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+.all{
+  display: flex;
+ 
+}
+.words{
+  display:flex;
+  flex-direction: column;
+  margin-left: 40px; 
+}
+
+h4{
+  color: grey;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 13px;
+  
+  font-size: 20px;
+}
+.title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+.price {
+ color: rgb(46,139,87); 
+ font-size: 40px;
+ font-family:sans-serif
+}
+p{
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+image{
+  float: left;
+}
+.box{
+
+  width: 325px;
+  height: 100px;
+  background-color: rgb(46,139,87);
+  border: 1px color rgb(46,139,87)
+}
+.box p{
+color: white;
+font-size: 40px;
+text-align: center;
+
+}
+.pay{
+  display: flex;
+  flex-direction: row;
+}
+.pay p{
+text-decoration: line-through;
+margin-left: 30px;
+}
+
