@@ -5,12 +5,16 @@ body{
 }
 .all{
   display: flex;
- 
+  width: 500px;
+  height: 500px;
+  border: 1px solid grey;
+  margin: 30px;
+  border-radius: 5%;
 }
 .words{
   display:flex;
   flex-direction: column;
-  margin-left: 40px; 
+  margin-left:30px; 
 }
 
 h4{
@@ -22,20 +26,23 @@ h4{
 }
 .title{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50px;
+  font-size: 35px;
 }
 .price {
  color: rgb(46,139,87); 
- font-size: 40px;
+ font-size: 30px;
  font-family:sans-serif
 }
 p{
     color: grey;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 16px;
 }
-image{
+.image{
   float: left;
+  width: 250px;
+  height: 500px;
+  border-radius: 5%;
 }
 .box{
 
@@ -59,3 +66,21 @@ text-decoration: line-through;
 margin-left: 30px;
 }
 
+.button{
+display: flex;
+border: none;
+width: 200px;
+height: 50px;
+background-color: rgb(46,139,87) ;
+border-radius: 10px;
+}
+.button p{
+  display: flex;
+ align-items: center;
+  transform: translateX(60px);
+  color: white;
+ 
+}
+.button svg{
+  
+}
